@@ -14,8 +14,18 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 ## 🧾 Program
 
-Add code here
-
+```python
+import numpy as np
+x=np.array(eval(input()))
+y=np.array(eval(input()))
+great=np.where(x>y)
+equal=np.where(x==y)
+print(great)
+print(equal)
+```
 ## Output
+![image](https://github.com/user-attachments/assets/834f55a7-c465-4875-9c62-ca8109129a72)
+
 
 ## Result
+Thus,the program has been executed successfully.
